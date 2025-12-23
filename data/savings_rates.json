@@ -1,0 +1,60 @@
+{
+  "Tiết kiệm thường": {
+    "terms": {
+      "1": {
+        "online": 3.7,
+        "counter": 3.5,
+        "min_amount_online": 1000000,
+        "min_amount": 1000000
+      },
+      "3": {
+        "online": 4.0,
+        "counter": 3.8,
+        "min_amount_online": 1000000,
+        "min_amount": 1000000
+      },
+      "6": {
+        "online": 5.0,
+        "counter": 4.8,
+        "min_amount_online": 1000000,
+        "min_amount": 1000000
+      },
+      "9": {
+        "online": 5.3,
+        "counter": 5.1,
+        "min_amount_online": 1000000,
+        "min_amount": 1000000
+      },
+      "12": {
+        "online": 5.6,
+        "counter": 5.4,
+        "min_amount_online": 1000000,
+        "min_amount": 1000000
+      },
+      "18": {
+        "online": 5.7,
+        "counter": 5.5,
+        "min_amount_online": 1000000,
+        "min_amount": 1000000
+      },
+      "24": {
+        "online": 5.8,
+        "counter": 5.6,
+        "min_amount_online": 1000000,
+        "min_amount": 1000000
+      },
+      "36": {
+        "online": 6.0,
+        "counter": 5.8,
+        "min_amount_online": 1000000,
+        "min_amount": 1000000
+      }
+    },
+    "non_term": {
+      "online": 0.1,
+      "counter": 0.1,
+      "min_amount_online": 100000,
+      "min_amount": 100000
+    }
+  }
+}

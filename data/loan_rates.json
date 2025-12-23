@@ -1,0 +1,33 @@
+{
+  "vay_mua_nha": {
+    "product_name": "Vay mua nhà/đất",
+    "interest_rate": 7.9,
+    "max_term_years": 25,
+    "max_limit_percent": 80,
+    "details": "Lãi suất ưu đãi 3 tháng đầu: 7.9%. Lãi suất sau ưu đãi: 8.5% - 10.5%",
+    "requirements": ["Sổ đỏ/sổ hồng tài sản mua", "Chứng minh thu nhập"]
+  },
+  "vay_mua_oto": {
+    "product_name": "Vay mua ô tô",
+    "interest_rate": 8.5,
+    "max_term_years": 8,
+    "max_limit_percent": 80,
+    "details": "Lãi suất ưu đãi 6 tháng đầu: 8.5%. Lãi suất sau ưu đãi: 9.5% - 11.5%",
+    "requirements": ["Hợp đồng mua xe", "Chứng minh thu nhập"]
+  },
+  "vay_tieu_dung_tin_chap": {
+    "product_name": "Vay tiêu dùng tín chấp (theo lương)",
+    "interest_rate": 11.0,
+    "max_term_years": 5,
+    "max_limit_multiplier": 10,
+    "details": "Lãi suất từ 11% - 14%/năm tùy theo mức lương và công ty đang làm việc.",
+    "requirements": ["Sao kê lương 3 tháng gần nhất", "Hợp đồng lao động"]
+  },
+  "vay_kinh_doanh": {
+    "product_name": "Vay bổ sung vốn lưu động",
+    "interest_rate": 9.0,
+    "max_term_years": 3,
+    "details": "Lãi suất từ 9% - 12%/năm. Hạn mức tùy theo phương án kinh doanh.",
+    "requirements": ["Giấy phép kinh doanh", "Báo cáo tài chính"]
+  }
+}

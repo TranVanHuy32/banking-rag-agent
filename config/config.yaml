@@ -1,0 +1,30 @@
+# Default configuration for Banking RAG Agent
+
+# Application
+app_name: "Banking RAG Agent"
+debug: false
+environment: "development"
+log_level: "INFO"
+log_file: "logs/banking_rag.log"
+
+# Data paths
+data_dir: "data"
+raw_data_dir: "${data_dir}/raw"
+processed_data_dir: "${data_dir}/processed"
+vector_store_path: "${data_dir}/vector_store"
+
+# Text processing
+chunk_size: 1000
+chunk_overlap: 200
+max_chunk_size: 1500
+
+# Embeddings
+embedding_model: "models/text-embedding-004"
+embedding_dim: 768
+embedding_batch_size: 32
+
+# LLM
+llm_provider: "gemini"
+llm_model: "models/gemini-2.5-flash"
+llm_temperature: 0.1
+llm_max_tokens: 2048

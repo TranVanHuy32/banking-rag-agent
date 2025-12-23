@@ -1,0 +1,45 @@
+# Core API & Utils
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-dotenv
+requests
+numpy
+cachetools
+
+# LLM & RAG Framework
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-openai
+langchain-huggingface
+langchain-chroma
+
+# Vector Database & Embeddings
+chromadb
+sentence-transformers
+faiss-cpu
+flashrank
+
+# Document Ingestion
+pypdf
+unstructured
+# Note: On Raspberry Pi, install 'libmagic1' via apt: sudo apt-get install libmagic1
+python-magic
+
+# Audio & TTS
+SpeechRecognition
+# Note: On Raspberry Pi, install 'portaudio19-dev' via apt: sudo apt-get install portaudio19-dev
+PyAudio
+gTTS
+google-cloud-texttospeech
+pygame
+
+# Frontend / UI
+customtkinter
+Pillow
+qrcode
+
+# Dev Tools (Optional)
+pyinstaller

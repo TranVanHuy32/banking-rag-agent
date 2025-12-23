@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  # Vector Database (ChromaDB)
+  chromadb:
+    image: chromadb/chroma:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/vector_store:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - PERSIST_DIRECTORY=/chroma/chroma
+    restart: unless-stopped
+
+  # API Service (uncomment and configure if using FastAPI/Flask)
+  # api:
+  #   build: .
+  #   ports:
+  #     - "8001:8000"
+  #   environment:
+  #     - ENVIRONMENT=production
+  #     - DATABASE_URL=postgresql://user:password@db:5432/banking_rag
+  #     - VECTOR_STORE_URL=http://chromadb:8000
+  #   depends_on:
+  #     - chromadb
+  #     - db
+  #   restart: unless-stopped
+
+  # PostgreSQL Database (uncomment if needed)
+  # db:
+  #   image: postgres:13
+  #   environment:
+  #     - POSTGRES_USER=user
+  #     - POSTGRES_PASSWORD=password
+  #     - POSTGRES_DB=banking_rag
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data/
+  #   ports:
+  #     - "5432:5432"
+  #   restart: unless-stopped
+
+volumes:
+  postgres_data:
